@@ -1,0 +1,2 @@
+require 'downloader'
+puts Downloader::Downloader.run(ARGV[0])
